@@ -4,16 +4,23 @@
 
 **诞生记**
 
-    之前编写了SaltStack自动化部署OpenStackI版使用的源码包的方式https://github.com/unixhot/saltstack-openstack-source，用用户反映安装起来比较繁琐，加上pip源网络的问题，很多朋友自动化部署有问题。所以本次重新使用yuan安装的方式重新编写了一遍。如有建议欢迎反馈。QQ：57459267
+    首先：之前编写了SaltStack自动化部署OpenStackI版：
+            使用的源码包的方式https://github.com/unixhot/saltstack-openstack-source
+    因为：有用户反映安装起来比较繁琐，加上pip源网络的问题，很多朋友自动化部署有问题。
+    所以：本次重新使用yuan安装的方式重新编写了一遍。
+    最后：如有建议欢迎反馈。QQ：57459267
 
 **友情提示**
 
-    本文的使用对象为熟悉OpenStack，可以手动完成OpenStack的部署的用户，如果不熟悉OpenStack的用户，请勿使用，可以参考我录制的《OpenStack企业私有云实践》课程： http://edu.51cto.com/course/course_id-2187.html
+    本文的使用对象为熟悉OpenStack，可以手动完成OpenStack的部署的用户。
+    如果不熟悉OpenStack的用户，可以参考我录制的
+    《OpenStack企业私有云实践》课程：http://edu.51cto.com/course/course_id-2187.html
 
 使用方式
 ====
 
 **1.OpenStack架构**
+
 ![架构图](https://github.com/unixhot/saltstack-openstack-yum/blob/master/openstack-arch.png)  
 
 **2.介绍**
