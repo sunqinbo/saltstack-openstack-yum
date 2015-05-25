@@ -12,18 +12,18 @@
 ====
 
 **1.OpenStack架构**
-![架构图](https://github.com/unixhot/saltstack-openstack/blob/master/openstack.png)  
+![架构图](https://github.com/unixhot/saltstack-openstack-yum/blob/master/openstack-arch.png)  
 
 **2.介绍**
 
-1.每个服务均有一个目录存放SLS文件。每个目录下均有files目录，用来存放源文件。
-2.每个服务均有一个Pillar文件，主要定义和配置相关的如IP地址、网络接口、用户名和密码等。
+    -1.每个服务均有一个目录存放SLS文件。每个目录下均有files目录，用来存放源文件。
+    -2.每个服务均有一个Pillar文件，主要定义和配置相关的如IP地址、网络接口、用户名和密码等。
 
 **使用步骤**
 
 ***1.下载SLS和源码安装包***
 ```ObjectiveC
-# git clone https://github.com/unixhot/saltstack-openstack
+# git clone https://github.com/unixhot/saltstack-openstack-yum
 ```
 
 **2.修改Pillar目录的各个服务的配置**
