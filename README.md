@@ -11,10 +11,10 @@
 
 **友情提示**
 
-    本文的使用对象为熟悉OpenStack，可以手动完成OpenStack的部署的用户。
+    - 本文的使用对象为熟悉OpenStack，可以手动完成OpenStack的部署的用户。
     如果不熟悉OpenStack的用户，可以参考我录制的
-   《自动化运维之SaltStack实践实践》课程: [http://edu.51cto.com/course/course_id-2354.html]
-   《OpenStack企业私有云实践》课程: [http://edu.51cto.com/course/course_id-2187.html]
+   - 《自动化运维之SaltStack实践实践》课程: [http://edu.51cto.com/course/course_id-2354.html]
+   - 《OpenStack企业私有云实践》课程: [http://edu.51cto.com/course/course_id-2187.html]
 
 使用方式
 ====
