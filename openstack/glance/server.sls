@@ -5,7 +5,6 @@ glance-install:
     - names:
       - openstack-glance 
       - python-glanceclient
-      - python-crypto
     - require: 
       - pkg: yum_repo_release
 
@@ -32,6 +31,9 @@ glance-install:
       AUTH_GLANCE_ADMIN_PASS: {{ pillar['glance']['AUTH_GLANCE_ADMIN_PASS'] }}
 
 glance-db-sync:
+  pkg.installed:
+    - name: python-crypto
+    - allow_updates: True
   cmd.run:
     - name: glance-manage db_sync && touch /etc/glance-datasync.lock && chown glance:glance /var/log/glance/*
     - require:
