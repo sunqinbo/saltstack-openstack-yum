@@ -28,5 +28,3 @@
       NOVNCPROXY_BASE_URL: {{ pillar['nova']['NOVNCPROXY_BASE_URL'] }}
       VNCSERVER_PROXYCLIENT: {{ grains['fqdn'] }}
       AUTH_URI: {{ pillar['nova']['AUTH_URI'] }}
-    - require:
-      - pkg: nova-control-install

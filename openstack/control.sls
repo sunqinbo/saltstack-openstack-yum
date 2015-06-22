@@ -1,5 +1,5 @@
 include:
-  - openstack.init.control_base
+  - openstack.init.base
   - openstack.rabbitmq.server
   - openstack.mysql.server
   - openstack.mysql.init
@@ -8,4 +8,3 @@ include:
   - openstack.nova.control
   - openstack.horizon.server
   - openstack.neutron.server
-  - openstack.cinder.server
